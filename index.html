@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reef Academy — Ocean Learning for Kids</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(160deg, #001450 0%, #023E8A 50%, #0077B6 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px 80px;
+    }
+    .hero { text-align: center; max-width: 600px; margin-bottom: 48px; }
+    .hero .emoji { font-size: 5rem; display: block; margin-bottom: 16px; }
+    .hero h1 { font-size: 3rem; font-weight: 900; color: #fff; line-height: 1.1; }
+    .hero .tagline { font-size: 1.2rem; color: #FFD700; font-weight: 700; margin-top: 10px; }
+    .hero p {
+      font-size: 1rem; color: rgba(255,255,255,0.8); line-height: 1.7;
+      margin-top: 18px; max-width: 480px; margin-left: auto; margin-right: auto;
+    }
+    .badge-row {
+      display: flex; flex-wrap: wrap; gap: 12px;
+      justify-content: center; margin-top: 24px;
+    }
+    .badge {
+      background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 50px; padding: 8px 18px; font-size: 0.9rem;
+      color: rgba(255,255,255,0.9); font-weight: 600;
+    }
+    .features {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px; max-width: 720px; width: 100%; margin-bottom: 48px;
+    }
+    .feature-card {
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 16px; padding: 20px; text-align: center;
+    }
+    .feature-card .icon { font-size: 2.2rem; display: block; margin-bottom: 10px; }
+    .feature-card h3 { font-size: 1rem; font-weight: 800; color: #FFD700; margin-bottom: 6px; }
+    .feature-card p  { font-size: 0.85rem; color: rgba(255,255,255,0.75); line-height: 1.5; }
+    .support-card {
+      background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 20px; padding: 32px; text-align: center;
+      max-width: 500px; width: 100%; margin-bottom: 32px;
+    }
+    .support-card h2 { font-size: 1.4rem; font-weight: 900; margin-bottom: 10px; }
+    .support-card p  { font-size: 0.95rem; color: rgba(255,255,255,0.8); line-height: 1.6; }
+    .support-card a  { color: #FFD700; text-decoration: none; font-weight: 700; }
+    .support-card a:hover { text-decoration: underline; }
+    footer {
+      font-size: 0.8rem; color: rgba(255,255,255,0.4);
+      text-align: center; margin-top: auto; padding-top: 32px;
+    }
+    footer a { color: rgba(255,255,255,0.6); text-decoration: none; }
+    footer a:hover { color: #FFD700; }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <span class="emoji">🐠</span>
+    <h1>Reef Academy</h1>
+    <p class="tagline">Ocean Learning for Kids</p>
+    <p>
+      An interactive educational app for children in Pre-K through 4th grade.
+      280+ lessons in Math, Reading, Science, and Writing — all wrapped in an ocean adventure.
+    </p>
+    <div class="badge-row">
+      <span class="badge">🧮 Math Reef</span>
+      <span class="badge">📚 Reading Cove</span>
+      <span class="badge">🔬 Science Bay</span>
+      <span class="badge">✏️ Writing Shore</span>
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="feature-card">
+      <span class="icon">🎮</span>
+      <h3>10 Game Types</h3>
+      <p>Multiple choice, matching, bubble pop, word scramble, memory flip, and more.</p>
+    </div>
+    <div class="feature-card">
+      <span class="icon">🦪</span>
+      <h3>Gamified Progress</h3>
+      <p>Earn Pearls, level up, unlock badges, and build streaks — learning feels like play.</p>
+    </div>
+    <div class="feature-card">
+      <span class="icon">🔒</span>
+      <h3>100% Private</h3>
+      <p>No ads, no data collection, no accounts required. All progress stays on your device.</p>
+    </div>
+    <div class="feature-card">
+      <span class="icon">👨‍👩‍👧</span>
+      <h3>Parent Dashboard</h3>
+      <p>Track your child's progress across all subjects with detailed performance stats.</p>
+    </div>
+  </div>
+
+  <div class="support-card">
+    <h2>💬 Support</h2>
+    <p>
+      Have a question or need help? We're here for you.<br/><br/>
+      Email us at <a href="mailto:support@reefacademyapp.com">support@reefacademyapp.com</a>
+      and we'll get back to you within 1–2 business days.
+    </p>
+  </div>
+
+  <footer>
+    <p>
+      &copy; 2026 Reef Academy &nbsp;·&nbsp;
+      <a href="privacy.html">Privacy Policy</a>
+    </p>
+  </footer>
+
+</body>
+</html>
